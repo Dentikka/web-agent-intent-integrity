@@ -1,0 +1,38 @@
+{
+  "model-1-e5d07697": {
+    "id": "openai/gpt-6-luna",
+    "max_output_tokens": 1536,
+    "token_limit_field": "max_tokens",
+    "input_per_million": 0.09999999999999999,
+    "output_per_million": 0.5,
+    "extra_body": {
+      "provider": {
+        "allow_fallbacks": false
+      },
+      "reasoning": {
+        "effort": "low"
+      },
+      "usage": {
+        "include": true
+      }
+    }
+  },
+  "model-2-a3fa969e": {
+    "id": "anthropic/claude-haiku-5.5",
+    "max_output_tokens": 1536,
+    "token_limit_field": "max_tokens",
+    "input_per_million": 0.09999999999999999,
+    "output_per_million": 0.5,
+    "extra_body": {
+      "provider": {
+        "allow_fallbacks": false
+      },
+      "reasoning": {
+        "effort": "low"
+      },
+      "usage": {
+        "include": true
+      }
+    }
+  }
+}

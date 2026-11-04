@@ -1,0 +1,186 @@
+{
+  "path": "data/paper/recorded-analyses.zip",
+  "sha256": "cc3342bfd58771d39b99522ac20f60bf61a15423bba94c7f9e6702cb7eee9a6c",
+  "files": [
+    {
+      "path": "artifacts/article_strengthening_v2/lifecycle_transfer/main/analysis.json",
+      "sha256": "738ad2394202dce8786e588b6ef9a695ed83af8d0dd985202cd10ced693c29d4",
+      "input_sha256": "300bc88f83398ea61dac31238dc068967944e36fd305e62cc89c3093d384d98e",
+      "size": 32960
+    },
+    {
+      "path": "artifacts/article_strengthening_v2/moderate_semantic_sol/main/analysis.json",
+      "sha256": "72bfd9a24e000baaa31c3487223c5c94647e7524f6fa277189075707d16d853a",
+      "input_sha256": "f2ac376a5af125f58763c30e7b72e5e93358297a09757d7126f0d97a276773ac",
+      "size": 18884
+    },
+    {
+      "path": "artifacts/behavioral_v2/main/analysis.json",
+      "sha256": "96066709df0736f168db179bc841c7975106b6768c59f91233327ad82c319539",
+      "input_sha256": "75bcad89806eab309e613312a30ce50d2ec9c50716f7d68e69d055b44508936b",
+      "size": 396919
+    },
+    {
+      "path": "artifacts/component_ablation_v3/main/analysis.json",
+      "sha256": "0caa11973adc374a48d64b3dc341ed699ad4675a564d461f28694814c45cee6e",
+      "input_sha256": "63f4b1f7bf0145c31bd4cad5a4b8a15068b5346985c7d4fbf8e01448f652b483",
+      "size": 40106
+    },
+    {
+      "path": "artifacts/end_to_end_v2/main/analysis.json",
+      "sha256": "c0aa355809f48194cd28f20802a5f056b26521aadab4c6d89d30307c126989d6",
+      "input_sha256": "04409e0fe170a4dcc0412198ba5b146f738751c1b4cbfc649435cf6d0c2ea7fa",
+      "size": 53071
+    },
+    {
+      "path": "artifacts/handoff_generalization_v2/ANALYSIS.json",
+      "sha256": "9762d1c2dcb7f9da9b741843bb0a76de62262b26d9a7bc1fe078e22ae137e446",
+      "input_sha256": "bb687158650182aa1cc2df633b53925007c762fd386a35b11997650743e5a577",
+      "size": 2490221
+    },
+    {
+      "path": "artifacts/handoff_generalization_v2/FINAL_AUDIT.json",
+      "sha256": "19b2b078e60545b90f2149d4563771009390ec901fe2ced82973a5466f5f912b",
+      "input_sha256": "d890732bb5f4998fbb09c2e251ec99fe1057edfba437251572a2fafc83a904b1",
+      "size": 1593
+    },
+    {
+      "path": "artifacts/handoff_generalization_v2/runs/model-1-e5d07697/paid/DATABASE_AUDIT.json",
+      "sha256": "af0eb4ed799d114a04ec7bcdc4590a0cefdd22f627f41b44f804185c6d06135a",
+      "input_sha256": "dae5caf9203555a1b5717986177e61a11468deaeec8235b9627cd33088fbbcde",
+      "size": 73749
+    },
+    {
+      "path": "artifacts/handoff_generalization_v2/runs/model-1-e5d07697/paid/main/analysis.json",
+      "sha256": "128f89880f69ad4e6773acf40fd434a8b456b4bc05f11eb78d4c1d4c33f1acc1",
+      "input_sha256": "dff368eca8ddae4762d378cf6c8914b78d2999f6dfd6a4b10f2dc9adf0301e36",
+      "size": 916601
+    },
+    {
+      "path": "artifacts/handoff_generalization_v2/runs/model-2-a3fa969e/paid/DATABASE_AUDIT.json",
+      "sha256": "d3f36b8c6ed23ec72daaf9ddefd0d77e0e2c948a4c417b6564b7d605902758a6",
+      "input_sha256": "4c01b42eac9e0be355499343de269a50256ef385db1dbc05f0c93a2bcf60de8e",
+      "size": 73749
+    },
+    {
+      "path": "artifacts/handoff_generalization_v2/runs/model-2-a3fa969e/paid/main/analysis.json",
+      "sha256": "ca205782847366f98e61937ffb0c7a602c3de386d9e98de705aff21ce34ba3ff",
+      "input_sha256": "1b09f53a9c4f47400211ec1fc9c08345ddcb4570ead1676321a500cf161a7562",
+      "size": 922601
+    },
+    {
+      "path": "artifacts/handoff_generalization_v2/runs/model-3-3b5ea6fd/paid/DATABASE_AUDIT.json",
+      "sha256": "8fcc805420f32e9df2952c471cae6a92195dc2ca929cbeb3c720863945be0ec3",
+      "input_sha256": "0ac6d33ee70eb7066c283107134c3cac2df8099d736d143476486e2f4e076fce",
+      "size": 26901
+    },
+    {
+      "path": "artifacts/handoff_generalization_v2/runs/model-3-3b5ea6fd/paid/main/analysis.json",
+      "sha256": "6cd0519a23f419266959eb8971b69bc29b9f45e1196dea85d12c20d62ac87a03",
+      "input_sha256": "441197f9a7d5651fbf2b987dd7c771a40e5c8f684fadf8d18acf9f2e8fbe1af4",
+      "size": 181153
+    },
+    {
+      "path": "artifacts/handoff_generalization_v2/runs/model-4-3215ce67/paid/DATABASE_AUDIT.json",
+      "sha256": "dcf664db9e88b0dd23b0d7357cbee987309e2479cc9b2fb0894c7b22c8f6aafd",
+      "input_sha256": "df063a6a9483b2f5156db9041dd28183e209169fb15d503348ca7df87c74e512",
+      "size": 26901
+    },
+    {
+      "path": "artifacts/handoff_generalization_v2/runs/model-4-3215ce67/paid/main/analysis.json",
+      "sha256": "259be0db6d1e9312a072f40eb42f6a7d52729329ced9469ef059d304a0db9bf5",
+      "input_sha256": "69cebac2600885f4ea6a55d0522ff36d204074bc4effa6be582dd37ee4030c6a",
+      "size": 182359
+    },
+    {
+      "path": "artifacts/irregular_schedules_v1/main/analysis.json",
+      "sha256": "67c57f6302200d4e72aad6b4689f26339abd01d3e4aa65ff125cfc6060f4fd08",
+      "input_sha256": "edc341f82edefa49259755d108bc3eeac7b9cac9625bc00c7e3e306ca7717a1d",
+      "size": 13785
+    },
+    {
+      "path": "artifacts/own_writes_v1/main/analysis.json",
+      "sha256": "f0e06d8cda32a5ef8ba0a110079d7f30cb36783593766d84a82b29303a4b8360",
+      "input_sha256": "ee2628e1f134fe15c17299bd9fcded744ca017e64d8add0039236fdd13c98b7d",
+      "size": 27457
+    },
+    {
+      "path": "artifacts/point2_effort_full_gate/analysis.json",
+      "sha256": "b1c4e110f73892e44960881c9bfe79e7e66f37052f2354276a5c40d982526172",
+      "input_sha256": "0bf8037641f280d721bb8740bf5925364513321c02af326720e173ba053b717d",
+      "size": 25981
+    },
+    {
+      "path": "artifacts/point2_review_controls/analysis.json",
+      "sha256": "7af5ff09610fb650c5c784d0319d77a82a3e348676f458555a95939ea2530175",
+      "input_sha256": "107f4d0380808e1b37f189be9ddf4f32c62a21658f7610e022baf106dfea2a02",
+      "size": 247631
+    },
+    {
+      "path": "artifacts/point2_routes_replication/analysis.json",
+      "sha256": "e62c5fc23254ab88d88c98632691320db4932462133b1d46ab890eb095e73a09",
+      "input_sha256": "eb9d7f59940f6a63e28ee5e50c44f24e137a86bff65931915cb9aec1722b4a10",
+      "size": 17168
+    },
+    {
+      "path": "artifacts/point2_semantics/analysis.json",
+      "sha256": "bcaad791b8e1e5d649cb9182f5d7818155572bb6b16ee16fee30576467f3400b",
+      "input_sha256": "24452a53d6418aa9db583ac365724a23ae6dff7a62bb30094e9a24ed85cbcace",
+      "size": 44767
+    },
+    {
+      "path": "artifacts/point3_realapps/main_v1/analysis.json",
+      "sha256": "0a2c789d6485791859ebb7a603a179ed821891ee11dafc6ed062ecdaa44e8656",
+      "input_sha256": "2d322d0855307593e76d48a21baa1d094cb0eddcc7e7055988f5bc57d7446155",
+      "size": 144921
+    },
+    {
+      "path": "artifacts/point3_strengthening/evidence_ablation/analysis.json",
+      "sha256": "8a9b62c737ee6be489e09758297513eb74a449d42fd482af3cd54304e8e7d341",
+      "input_sha256": "b6d95e9c8e4f8a08faa3af12e3da30166338393e4df3d0ea00de2b4f20954d99",
+      "size": 17542
+    },
+    {
+      "path": "artifacts/point3_strengthening/main_matched/analysis.json",
+      "sha256": "c88a6d4d9603037a8bc4967f8b185977d0c50b6f3a05a9e4de8753582e7cd477",
+      "input_sha256": "8aae567668597e71e02e31d9c03d4b3a44c1b3be0e6c70a1d187ce2c40cdf360",
+      "size": 25598
+    },
+    {
+      "path": "artifacts/point4_realapps/main/analysis.json",
+      "sha256": "2a6659b88969ef17d3a423e0abdf4def85d244b8b9b78d9098366656480803bc",
+      "input_sha256": "10c3713d3fb15552f9e899ef9fac0aa7d3e6829fdf2af740cdb940437e9462b9",
+      "size": 44754
+    },
+    {
+      "path": "artifacts/reviewer_qwen_v1/main/analysis.json",
+      "sha256": "bd9237567da85c203c532db8050c0fcfedb0250d288e36df56d8b49eb69b770e",
+      "input_sha256": "19c35b860cd50b97ec2baa4b2880ddf9769a0b1619b50d4917b8a87c122d1299",
+      "size": 17099
+    },
+    {
+      "path": "artifacts/reviewer_v1/main/analysis.json",
+      "sha256": "1394b5bb0f238169ce5118c514bf8f3973371d695d8542b3b72dad8a33595942",
+      "input_sha256": "c0fdd7734ed857c889e03505960d110cb4852ba9bb1709bdaa7b8f04be20fc3f",
+      "size": 42645
+    },
+    {
+      "path": "artifacts/semantic_reconciliation_v1/main/analysis.json",
+      "sha256": "12a9bf2e3d17ddd0f30e705b713c4c634afa4a84f5cecb32e998e56a969977a4",
+      "input_sha256": "3453a83ffcf9171ecc928f1f20cb8de2836886c5c34c8843f7bdf158f8079c0d",
+      "size": 45066
+    },
+    {
+      "path": "artifacts/semantic_reconciliation_v2/main/analysis.json",
+      "sha256": "d53cd78d3790427e97f098f3165b6ede9ecfe803814f619f5e4a15a29f7798f5",
+      "input_sha256": "2198f18c085f54ba4c613068dd6f467cd9845929b6b414b47c7b1766d913ca60",
+      "size": 16410
+    },
+    {
+      "path": "artifacts/story_strengthening/main/analysis.json",
+      "sha256": "0a485b20789efb6825854767fd9902efa325387206ce25d9986c02591c366d7d",
+      "input_sha256": "54e1f1f8cf7fb034424cc4b4bc9985adaea100cb0930099bf3b6deb694bd3a9c",
+      "size": 18348
+    }
+  ]
+}

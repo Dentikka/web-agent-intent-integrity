@@ -1,0 +1,11 @@
+* text=auto
+*.py text eol=lf
+*.php text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+
+*.csv text eol=lf
+*.ts text eol=lf
+*.js text eol=lf
+.gitignore text eol=lf

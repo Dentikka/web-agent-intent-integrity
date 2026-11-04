@@ -1,0 +1,123 @@
+{
+  "received_real_application_sources": {
+    "scripts/audit_point4.py": "177be603764d10f9b52e772f876cd514302ff0255f9da85ccf29a9b53c3784f8",
+    "scripts/finish_point2_medusa_parallel.py": "1df6c86b2fddcd4d233f7527d4a00559ea66ba93ae1c636e0c69bf38fd7725cf",
+    "scripts/full_price_guard_v2.py": "9302fa383560ed7f21687f414a8881338c8c2b2d8556fb17aa3a259324668a23",
+    "scripts/live_receipt_binding.py": "53c02fce58527557829d6af78ffe92b4189b7f6575afc9d5eab09617d6c17b81",
+    "scripts/point2_effort_full_gate.py": "41bfd4808e31a5c06e75ad1d520b4e4f06a83ea368c768f34ffba28b70108a0a",
+    "scripts/point2_review_controls.py": "308323f2f85b71f7922a6410933dbcefad255b5add75ba97ce818b6de539c71a",
+    "scripts/point2_routes_live.py": "1fc20e21587eb1f240a1f2c084840f11bec45b26ada594ee1820a8f85107a614",
+    "scripts/point2_routes_replication.py": "3b8bf2bedf4d55515e52a0713ff63154edaec92d5a7ce4c0ccc7ed39d76c8479",
+    "scripts/point2_semantics.py": "6f7e87ccede0b1a77983fac6f872da83a7f52f06d224fce371cf46255c6ca6ca",
+    "scripts/point2_v2.py": "36a1e841f08d840278bddcd8dda58fcc857eae15aaf815334f4bec9b0b206eeb",
+    "scripts/point3_evidence_ablation.py": "df29efe82793b71ca6284a2ba57e15dda7608dab9c426552be884fd1fa2ae967",
+    "scripts/point3_warm_reset.py": "b8a278c47eef7bd61b8ce63b71102e9add7f78668bbd598ccd7866ffb16d5201",
+    "scripts/replicate_reviewer_v1.py": "90036e1f81d12d5dd2bce2784667b4e7188b8706577c8e2626e9e87838c729ee",
+    "scripts/run_article_model_transfers_v2.py": "62edea874877f316421876975dc46437c834915824fe8dcaf859c903d12f74d2",
+    "scripts/run_behavioral_v2.py": "e434ce1d4cdf81fb61ac460ab135c720485c5ddb4fd56fe5147eb587460d75ea",
+    "scripts/run_component_ablation_v3.py": "7f36a8b93c270a91c02fece2b7f64cabc6b2d156ef2102b5dcb213bc402ee70a",
+    "scripts/run_end_to_end_v2.py": "77d7ffe538bf847d67721a376c31938d0f23e55ca1692ca01e7d60939fc099a1",
+    "scripts/run_handoff_generalization_transfer_repeat1.py": "72405da3d8e8a58624c1be45179d1b1f4f49033249c0812bc35f8a8674e288c5",
+    "scripts/run_irregular_schedules_v1.py": "fea36aa5a8c4364fe962d2590aea45943dbac0efda39f6c8fac5981373b659fe",
+    "scripts/run_medusa_point2_cost_extension.py": "26c83b3f76cfb25e3c532cdd00c22aa013c678b93b4aac6bdf4fd3641dddd453",
+    "scripts/run_own_writes_v1.py": "db95162927ccf716ca6c843fc5ba60f2a5b03d5f799693b5277d84105375866e",
+    "scripts/run_point4.py": "8eb6a1aee4f386af3a77f513fc6f253b75c60cfd4557f4c67ee1bf5af0d9dff8",
+    "scripts/run_reviewer_v1.py": "c35a475b462426d5e3f4d2e282459244e5a70ea510e414cbdd1edc7b87498e4b",
+    "scripts/run_semantic_reconciliation_v1.py": "824660ef39d52c4e13f0e62d1f3dae7dd579ac19b042e31b03aeb0c4bdd0210c",
+    "scripts/run_semantic_reconciliation_v2.py": "c8c2fe712945ac22e2ded00ed9a290921c43c1190e04654922c8f74515c4f060",
+    "scripts/strengthen_point3.py": "af40cf28663eaef3af1cd7e4deeeaffbb23ee70e065c8758213b94acdcf32399",
+    "scripts/strengthen_story_routes.py": "e2a951394057297b24cab8ecda427d28897b9df36812e69cf6ba692a21b28924",
+    "src/article_execution_guard_v2.ts": "4652e285a1f745ef3832777056422d769321f4747710c479f69dabe453f57f98",
+    "vendor/colleague-intent-integrity/webmcp-intent-integrity-main/api_client.py": "3a19dbc40697f4bff4428a0111b0041ac7901cf4b08cac677c05274bbb2478ae",
+    "src/handoff_generalization_v1/app.py": "0ece74699cd779fc54177eb792bc31e8ef1cc283a358015153b249c9637e2aa9",
+    "src/handoff_generalization_v1/catalogs.json": "17a5881ee0c26ec9664b99e0ad784fc53b8b86ed0d129071496f8b0bacc107f7",
+    "src/handoff_generalization_v1/controls.py": "15f4e9cb045a2d2dccff4c745c040cb80b61d7d654ac3a5ecf664fbbdd8de91d",
+    "src/handoff_generalization_v1/drift_wc.php": "72c682120059d460007d2d0dfdbbc4c5ac793fedb3138cf005a3f0c7c2c4f99e",
+    "src/handoff_generalization_v1/run.py": "bdc4b0280c257c492f458d3718d48699bbd176854bc410ffd5c8de11a5e2ca0e",
+    "src/medusa_v1/environment.py": "1909da862c4e755e38baad99e52dfaa405392a5771d836ecdd2c3fffa03c0249",
+    "src/medusa_v1/interventions.js": "3641c3d402a5bdd36bff247a3c812c81ad7dec2b8fee4422e1814fbecf7938ea",
+    "src/medusa_v1/point3.py": "695e45329955b528123b2e1393eb5a279901613ad44fd746716e40115a17b2d1",
+    "src/medusa_v1/run.py": "f1f4198cdb4b9e2a1f68044d07f18cff69f4fab4ae4750e70253375d2b6d27c5",
+    "src/medusa_v1/__init__.py": "f16bc2cf4163eccfebd4848bee829232ee5d90e3297a768d7d02317e67d56c7f",
+    "src/point2_effort_full_gate/gate.js": "2e308ab94c8920e932aa6e07cf9206e90544d769830987e2de21d61323805835",
+    "src/point2_effort_full_gate/runtime.py": "69ee92327241a5891d8ba5d2e785b743e43f5e276f6cec96efc5d5f01a0ce58f",
+    "src/point2_effort_full_gate/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/point2_review_controls/design.py": "07af2462d3f628236904acfaf6abcc79b74961ed89de2fe10cb7924c7595bde1",
+    "src/point2_review_controls/gate.js": "dfe93c11e71fc3db1c20e14f94c6d1a1587f5e653bb838bb872f00d93b4a8672",
+    "src/point2_review_controls/run.py": "53b103507ffc997877297bca7514719badf360d142bd87e7477fbd31b1099f2b",
+    "src/point2_review_controls/surfaces.py": "77dbf0a108399c2d7559dcd3fafe1a25e57b2b93e3416f7faf49993756bfffc1",
+    "src/point2_review_controls/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/point2_routes_live/runtime.py": "5acccbd7bf8978daeb5488a3ba23304b59f071cf76bf9a261394fe0442251036",
+    "src/point2_routes_live/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/point2_semantics/design.py": "7ce09c361753b7a64f3041a5556b064c887ccbe44de88574f10b64fdc62f0724",
+    "src/point2_semantics/run.py": "c81361746cebf8e1b0534d4ebbabb40f5f6f354a40332efb20439f497939cd32",
+    "src/point2_semantics/surface.js": "f8f53b318ebbfee3ca37703363a2aeeaaad2182d499c7d6cd032d155e7bed22b",
+    "src/point2_semantics/surfaces.py": "8b2da360e6ce0935195d0171f843bfa7aa162efbf0abf75bbe3350146b6d7670",
+    "src/point2_semantics/__init__.py": "ea5b93f088a56a3c234610394b23a20a41b93ec4a9c00f5dd474c5c5769a0700",
+    "src/point2_v2/design.py": "fcc111b5a47554344e0b99569f1d29fad44bca474c392efb4ef0f6b42f2acd02",
+    "src/point2_v2/run.py": "8123563a5ea3d83a3059fc15d9edb183a73a642a947d011120e355d6698314b8",
+    "src/point2_v2/surface.js": "570b8bb69abaf452f5492518031444cd896de1cdf9213330ac2c210366c0a7e2",
+    "src/point2_v2/surfaces.py": "603c94932766bc48115d50b9ef11d1af4e4e3f0804c9deb75b150b3b6e4120bd",
+    "src/point2_v2/__init__.py": "ea5b93f088a56a3c234610394b23a20a41b93ec4a9c00f5dd474c5c5769a0700",
+    "src/point2_v3/design.py": "fcc111b5a47554344e0b99569f1d29fad44bca474c392efb4ef0f6b42f2acd02",
+    "src/point2_v3/run.py": "8123563a5ea3d83a3059fc15d9edb183a73a642a947d011120e355d6698314b8",
+    "src/point2_v3/surface.js": "43628e701b3cfc996075a8e18e4dc133da7d5dfcbc297b25b74f531f7ae5898c",
+    "src/point2_v3/surfaces.py": "a69b3891c7795e261d96524a0532881927553953203b31f635bec4bddad3e36d",
+    "src/point2_v3/__init__.py": "ea5b93f088a56a3c234610394b23a20a41b93ec4a9c00f5dd474c5c5769a0700",
+    "src/realapp_v1/environment.py": "64adda74d3a95632070ebe65eaa341c4ee61d4dbdf8f6d605a7df33a3f51f85a",
+    "src/realapp_v1/interventions.js": "f3f620fc6b1bdbf04cdacb522c661df5c6672a09679da4e25aacadb40bd67052",
+    "src/realapp_v1/run.py": "4c80e63ab8fddcf12d94837d01d4ef787a3c783cf91957407dba76cce9a56936"
+  },
+  "adaptations": [
+    "Identity/path metadata redaction; JSON normalization in export.",
+    "Cross-catalog imports share the tested portable cart dependency closure instead of duplicating it.",
+    "Cart provider-only transport patch is supplied separately; actor/scorer matrices remain unchanged.",
+    "Publication whitespace and line endings normalized; original source hashes remain provenance hashes."
+  ],
+  "scope": "Source collection for reviewing recorded implementations. Historical real-application launchers additionally require original application fixtures and new local plans.",
+  "operation_binding_source": {
+    "adaptation": "Protocol path points to the English PROTOCOL.md; actor and scorer logic unchanged.",
+    "files": [
+      {
+        "path": "studies/operation_binding/analyze.py",
+        "source_sha256": "1ceb88b356f6e341783c08f779818d6190e2dc4bd945832bfd2e113738964cfc",
+        "published_sha256": "1ceb88b356f6e341783c08f779818d6190e2dc4bd945832bfd2e113738964cfc"
+      },
+      {
+        "path": "studies/operation_binding/binding_app.py",
+        "source_sha256": "69b0c147abd26e1d18bda53d67a0c987da13b0eb8eb909d5cd4ecd0ecfd54922",
+        "published_sha256": "69b0c147abd26e1d18bda53d67a0c987da13b0eb8eb909d5cd4ecd0ecfd54922"
+      },
+      {
+        "path": "studies/operation_binding/binding_wc.php",
+        "source_sha256": "a0a2da8df310c0c83dd5f5d675861c409d065972653b1903f139cb83e999c039",
+        "published_sha256": "a0a2da8df310c0c83dd5f5d675861c409d065972653b1903f139cb83e999c039"
+      },
+      {
+        "path": "studies/operation_binding/controls.py",
+        "source_sha256": "fece523612b90f84bf5ac189d92e75746110fd60602c18b3c2d5086cf89f7523",
+        "published_sha256": "fece523612b90f84bf5ac189d92e75746110fd60602c18b3c2d5086cf89f7523"
+      },
+      {
+        "path": "studies/operation_binding/design.py",
+        "source_sha256": "8ec6abdcef2e0dfaf02b954f3e979fe4e8018f1452eba061fb5169676f289f85",
+        "published_sha256": "8ec6abdcef2e0dfaf02b954f3e979fe4e8018f1452eba061fb5169676f289f85"
+      },
+      {
+        "path": "studies/operation_binding/run.py",
+        "source_sha256": "7e4a9c3e7313ecee815b77292fc484d8e32dc8c6c20a8bfda97a83368f2d882a",
+        "published_sha256": "fc5a3863ea2b562c559b7f2004b1b9500640a6c6fc2ff19aef5c7bbf620c27f5"
+      },
+      {
+        "path": "studies/operation_binding/test_design.py",
+        "source_sha256": "d922faebeb42be076b98aea762d953ed0a0db31681a2f2430ef3467cf8b8cd2f",
+        "published_sha256": "d922faebeb42be076b98aea762d953ed0a0db31681a2f2430ef3467cf8b8cd2f"
+      },
+      {
+        "path": "studies/operation_binding/test_runner.py",
+        "source_sha256": "420ae36ff0ed551f8dad5df813be0371f8eefbc946332fd511958bf146fda918",
+        "published_sha256": "420ae36ff0ed551f8dad5df813be0371f8eefbc946332fd511958bf146fda918"
+      }
+    ]
+  }
+}

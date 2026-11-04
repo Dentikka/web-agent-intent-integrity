@@ -1,0 +1,231 @@
+{
+  "cohorts": [
+    {
+      "cohort": "p2_core",
+      "expected": 720,
+      "observed": 720,
+      "complete": true,
+      "technical_errors": 1,
+      "index_sha256": "56e35ccc26d0e16b9dc9a309acb4d04c155aa602faa9a60e6fdf0e0a8b2809c4"
+    },
+    {
+      "cohort": "p2_review",
+      "expected": 1152,
+      "observed": 1152,
+      "complete": true,
+      "technical_errors": 3,
+      "index_sha256": "c0d47cc32a7e2965cfa52f9709c6565c881fb8451aabfd298c9d908e550755ee"
+    },
+    {
+      "cohort": "p2_full_gate",
+      "expected": 192,
+      "observed": 192,
+      "complete": true,
+      "technical_errors": 0,
+      "index_sha256": "9afdab95e2492cd9f3307a624248b811861327ca090f624148a305cf8fab636d"
+    },
+    {
+      "cohort": "p2_routes",
+      "expected": 216,
+      "observed": 216,
+      "complete": true,
+      "technical_errors": 0,
+      "index_sha256": "c358bf8d404f850bec0727e75f6f7f61f6d8bc9ace2987945e28058961f12895"
+    },
+    {
+      "cohort": "p2_semantics",
+      "expected": 192,
+      "observed": 192,
+      "complete": true,
+      "technical_errors": 2,
+      "index_sha256": "87c2cbd9657e99deb2869d35af3304680e4aa28912eb999b335112869e9a0b4f"
+    },
+    {
+      "cohort": "p2_early",
+      "expected": 152,
+      "observed": 152,
+      "complete": true,
+      "technical_errors": 0,
+      "index_sha256": "82da1809696a1015c4af822c6929d6430cb3e405b18465d5cf37d9fd9e9cb5b1"
+    },
+    {
+      "cohort": "p3_initial",
+      "expected": 360,
+      "observed": 360,
+      "complete": true,
+      "technical_errors": 18,
+      "index_sha256": "5f571eabc44151fd6ac218de4aa4419d75828505a86842708edb071b6df502ed"
+    },
+    {
+      "cohort": "p3_open",
+      "expected": 352,
+      "observed": 352,
+      "complete": true,
+      "technical_errors": 13,
+      "index_sha256": "f2a58a40ab39cb1e94dc69b51bdd296ff0413377df4550f260565093c7714a95"
+    },
+    {
+      "cohort": "p3_locked",
+      "expected": 192,
+      "observed": 192,
+      "complete": true,
+      "technical_errors": 1,
+      "index_sha256": "d4214f0d5bee9f312d7fc817e5a7d290e1663ab254017e35ae6a5dcb0730b8c0"
+    },
+    {
+      "cohort": "p3_route_transfer",
+      "expected": 192,
+      "observed": 192,
+      "complete": true,
+      "technical_errors": 2,
+      "index_sha256": "951ff47fb259b245a4520c61887a9a18beaea65d8a9576f3363c82390337258e"
+    },
+    {
+      "cohort": "p4_layers",
+      "expected": 640,
+      "observed": 640,
+      "complete": true,
+      "technical_errors": 2,
+      "index_sha256": "e3c3d924124b772fe7781d357aabd2b32131c27f88b734b3e3dd9fbab84fdb07"
+    },
+    {
+      "cohort": "behavioral_e1",
+      "expected": 192,
+      "observed": 192,
+      "complete": true,
+      "technical_errors": 0,
+      "index_sha256": "add8f6704b42dc97469fa4534a9a850b2cfd561086628c04ac3c1353d9c60e82"
+    },
+    {
+      "cohort": "behavioral_e2",
+      "expected": 192,
+      "observed": 192,
+      "complete": true,
+      "technical_errors": 0,
+      "index_sha256": "425b86cd519565ed07e73710d5f38d5fbffc590a1313a9901b8a0f672a60eba0"
+    },
+    {
+      "cohort": "behavioral_e3",
+      "expected": 144,
+      "observed": 144,
+      "complete": true,
+      "technical_errors": 1,
+      "index_sha256": "c147bb8841d729502e83da1c9d5f6bba1dd30c9db72df7996924440c2c6ec9be"
+    },
+    {
+      "cohort": "own_writes_lifecycle",
+      "expected": 144,
+      "observed": 144,
+      "complete": true,
+      "technical_errors": 1,
+      "index_sha256": "cdabf518937bfe8ef732ff915e6295cd7c797cf41c21a6ef7bcc4837b45fa67a"
+    },
+    {
+      "cohort": "reviewer_t",
+      "expected": 48,
+      "observed": 48,
+      "complete": true,
+      "technical_errors": 1,
+      "index_sha256": "505a85c5bc05bb4c4b45bb8c209c0ab51e30a330608f2296d32d9014ff7584b5"
+    },
+    {
+      "cohort": "reviewer_u",
+      "expected": 48,
+      "observed": 48,
+      "complete": true,
+      "technical_errors": 0,
+      "index_sha256": "c4edaf58c172794902f66c7f17808858f6e680db9ee9e0a4ffe1b1e4a3196164"
+    },
+    {
+      "cohort": "reviewer_qwen",
+      "expected": 20,
+      "observed": 20,
+      "complete": true,
+      "technical_errors": 0,
+      "index_sha256": "3edc7666458f9426cf914ac43362e6c81647824f6031d281483ec208d2f67cc1"
+    },
+    {
+      "cohort": "static_semantic",
+      "expected": 72,
+      "observed": 72,
+      "complete": true,
+      "technical_errors": 1,
+      "index_sha256": "fc0b2c0d7fc2b943400ee9db33c22bdff6afe72a93011c73aec71049f8aef440"
+    },
+    {
+      "cohort": "static_semantic_sol",
+      "expected": 24,
+      "observed": 24,
+      "complete": true,
+      "technical_errors": 0,
+      "index_sha256": "2c3ac51f2f3e59fb0a3cd387ddb02d64874d3c7189fa287793b86cf325c5641b"
+    },
+    {
+      "cohort": "irregular_schedules",
+      "expected": 64,
+      "observed": 64,
+      "complete": true,
+      "technical_errors": 0,
+      "index_sha256": "0875f88a45b5efbd9dc3f1195feb89c52e67ec757a78795c694a2401a7b7e020"
+    },
+    {
+      "cohort": "lifecycle_transfer",
+      "expected": 72,
+      "observed": 72,
+      "complete": true,
+      "technical_errors": 0,
+      "index_sha256": "148486dcb39e574cc571dcbeac96d7cdf9097d917d80755e9912c193ff675077"
+    },
+    {
+      "cohort": "end_to_end",
+      "expected": 48,
+      "observed": 48,
+      "complete": true,
+      "technical_errors": 0,
+      "index_sha256": "826a7fcae0077f7a30873fcee08b394552e69f929ec2a2e9dbe02b9bc055bda0"
+    },
+    {
+      "cohort": "semantic_three_policies",
+      "expected": 108,
+      "observed": 108,
+      "complete": true,
+      "technical_errors": 1,
+      "index_sha256": "f97a587edd1cbc3dc229922404acf094ec1c90a47bf5f3a4ed8790b627adb479"
+    },
+    {
+      "cohort": "component_ablation",
+      "expected": 120,
+      "observed": 120,
+      "complete": true,
+      "technical_errors": 4,
+      "index_sha256": "d76f15ae311fce4c9bcdf2e4d18fa7e8de86a108005a06f16572b7759d3734b5"
+    },
+    {
+      "cohort": "handoff_core",
+      "expected": 1152,
+      "observed": 1152,
+      "complete": true,
+      "technical_errors": 0,
+      "index_sha256": "aa9085eae781489ed0763eb0992e7a8fc6aa2bcb5a1b8ad4dbcdeacea12cc533"
+    },
+    {
+      "cohort": "handoff_transfer",
+      "expected": 192,
+      "observed": 192,
+      "complete": true,
+      "technical_errors": 0,
+      "index_sha256": "c9943d28092d8b69e316228bbcbaff57446e6190527d2adbd926e0aac1427f04"
+    },
+    {
+      "cohort": "handoff_repeat_transfer",
+      "expected": 192,
+      "observed": 192,
+      "complete": true,
+      "technical_errors": 0,
+      "index_sha256": "937c101bc2aa38528d2da4c42131e7319c9ab12e20f5ab65253dcbd4cfdd39d1"
+    }
+  ],
+  "total_observed": 7192,
+  "total_planned": 7192,
+  "note": "Distinct trajectories, not independent tasks/sites. Historical diagnostics and pilots remain outside these cohorts. No pooled overall success rate."
+}

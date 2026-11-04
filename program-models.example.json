@@ -1,0 +1,38 @@
+{
+  "budget_usd": 19,
+  "hours": 7.5,
+  "workers": 4,
+  "max_turns": 12,
+  "sections": [
+    "rq1",
+    "intent"
+  ],
+  "seeds": [
+    0
+  ],
+  "order_seed": 20261023,
+  "models": [
+    {
+      "id": "REPLACE_WITH_MODEL_1",
+      "base_url": "https://provider.invalid/v1",
+      "key_env": "MODEL_1_API_KEY",
+      "input_per_million": 0,
+      "output_per_million": 0,
+      "max_output_tokens": 768,
+      "token_limit_field": "max_tokens",
+      "byte_token_bound_verified": false,
+      "extra_body": {}
+    },
+    {
+      "id": "REPLACE_WITH_MODEL_2",
+      "base_url": "https://provider.invalid/v1",
+      "key_env": "MODEL_2_API_KEY",
+      "input_per_million": 0,
+      "output_per_million": 0,
+      "max_output_tokens": 768,
+      "token_limit_field": "max_completion_tokens",
+      "byte_token_bound_verified": false,
+      "extra_body": {}
+    }
+  ]
+}

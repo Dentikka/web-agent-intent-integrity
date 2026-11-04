@@ -1,0 +1,44 @@
+name: Artifact checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  offline:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - run: python -m unittest discover -p 'test_*.py' -v
+      - run: python studies/cart_lifecycle/replicate.py plan --config lifecycle-models.example.json
+      - run: python studies/operation_binding/run.py plan --config operation-binding-models.example.json
+      - run: python artifact.py verify
+      - run: python artifact.py verify --section cart-replication
+  binding-native:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - run: python -m playwright install --with-deps chromium
+      - run: sudo apt-get update && sudo apt-get install -y php-cli php-sqlite3 php-mysql php-mbstring
+      - name: Prepare isolated synthetic runtime
+        run: |
+          python studies/cart_lifecycle/prepare_runtime.py --download-runtime "$RUNNER_TEMP/runtime" --out "$RUNNER_TEMP/fixture"
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          root = Path(os.environ['RUNNER_TEMP'])
+          cfg = dict(workspace=str(Path.cwd()), runtime_wp_site=str(root/'runtime/wordpress'),
+                     base_database=str(root/'fixture/state.sqlite'), php_binary='/usr/bin/php',
+                     browser_channel='', models=[])
+          (root/'binding-local.json').write_text(json.dumps(cfg))
+          PY
+      - name: Native operation-binding controls without models
+        run: python studies/operation_binding/run.py selftest --config "$RUNNER_TEMP/binding-local.json" --out "$RUNNER_TEMP/binding-controls"

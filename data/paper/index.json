@@ -1,0 +1,213 @@
+{
+  "episodes": 7192,
+  "cohorts": {
+    "p2_core": 720,
+    "p2_review": 1152,
+    "p2_full_gate": 192,
+    "p2_routes": 216,
+    "p2_semantics": 192,
+    "p2_early": 152,
+    "p3_initial": 360,
+    "p3_open": 352,
+    "p3_locked": 192,
+    "p3_route_transfer": 192,
+    "p4_layers": 640,
+    "behavioral_e1": 192,
+    "behavioral_e2": 192,
+    "behavioral_e3": 144,
+    "own_writes_lifecycle": 144,
+    "reviewer_t": 48,
+    "reviewer_u": 48,
+    "reviewer_qwen": 20,
+    "static_semantic": 72,
+    "static_semantic_sol": 24,
+    "irregular_schedules": 64,
+    "lifecycle_transfer": 72,
+    "end_to_end": 48,
+    "semantic_three_policies": 108,
+    "component_ablation": 120,
+    "handoff_core": 1152,
+    "handoff_transfer": 192,
+    "handoff_repeat_transfer": 192
+  },
+  "files": 97035,
+  "shards": [
+    {
+      "path": "data/paper/behavioral_e1-01.zip",
+      "sha256": "0922d7154ebe90a1ce2758f7596e07f0623e6273c60996b38a7963c6c243a41d"
+    },
+    {
+      "path": "data/paper/behavioral_e2-01.zip",
+      "sha256": "57ebf7cedb3403bb6e8c8dd8bbdf17d27b76a02e5f7cc440b7f65c8b112cbcfd"
+    },
+    {
+      "path": "data/paper/behavioral_e3-01.zip",
+      "sha256": "aea33806f1482740e6572dd2a1ac24273262fab514f231fb42ff305ca7a527d5"
+    },
+    {
+      "path": "data/paper/component_ablation-01.zip",
+      "sha256": "49a755f12bed798e13046413fd7819b45790ce56376f820994fff915c0426d7a"
+    },
+    {
+      "path": "data/paper/end_to_end-01.zip",
+      "sha256": "dab9603533748103123a14eeb7acecab9015d1244ddea770388ba48d74f43478"
+    },
+    {
+      "path": "data/paper/handoff_core-01.zip",
+      "sha256": "84941b75e320c3246974122478b39923621ca147ee1572b844db8f657e59e00e"
+    },
+    {
+      "path": "data/paper/handoff_core-02.zip",
+      "sha256": "16bcc7b4bcca13ef360c290f75923993b94b77c1d45fcda86985692034b0dea4"
+    },
+    {
+      "path": "data/paper/handoff_core-03.zip",
+      "sha256": "1cd0ec9a68b7ec6e3a6fc14dce31dc794d65fffd0fa2cffb876b7486170f63f9"
+    },
+    {
+      "path": "data/paper/handoff_core-04.zip",
+      "sha256": "775a4d122e53ef57d47be91f3c967b46b2f1443f5cac2625c9099b2a2d3f451c"
+    },
+    {
+      "path": "data/paper/handoff_core-05.zip",
+      "sha256": "110fcd6bda9e4fb9d3389d0ddbd47e11676161ebd3b3b72c78c24dd8715e82aa"
+    },
+    {
+      "path": "data/paper/handoff_core-06.zip",
+      "sha256": "1e2bcdd7503aab914c894168d286a4289378f761d7d364f381ef3dcd6b58ee56"
+    },
+    {
+      "path": "data/paper/handoff_core-07.zip",
+      "sha256": "5ed8d8104eaee14e3c95d59a353a123a42bebfcf55e2bae13f3b9cfbc2241107"
+    },
+    {
+      "path": "data/paper/handoff_core-08.zip",
+      "sha256": "a22254c0b86132dcef3229909bfa1cf8e9183c81243919b2d0e9afa0dda2f6b3"
+    },
+    {
+      "path": "data/paper/handoff_core-09.zip",
+      "sha256": "45f26221d10a2378ae49c4a336b67b8c24af030d00602211b8623cdfaef2075a"
+    },
+    {
+      "path": "data/paper/handoff_core-10.zip",
+      "sha256": "a823070f7bb49d452763cc65f04402e9a3838491d4e8e4de7b59560e88db52ee"
+    },
+    {
+      "path": "data/paper/handoff_core-11.zip",
+      "sha256": "0acdc87e025a6f71da6c42bb8a2222db1c2a13b14183600919e0912687322465"
+    },
+    {
+      "path": "data/paper/handoff_core-12.zip",
+      "sha256": "886beb4e20474d0164d284c4c8dcb28b90fa2a8c527565a095d3d1769092ef1d"
+    },
+    {
+      "path": "data/paper/handoff_core-13.zip",
+      "sha256": "b06d34ddf32e37ebe6310f93591bf7af301a26fcdb986b14d781d571b86b67f2"
+    },
+    {
+      "path": "data/paper/handoff_repeat_transfer-01.zip",
+      "sha256": "58ce91a29fb219f481af07407aa3d23eb8b6a6862a4375310c6da404608545c7"
+    },
+    {
+      "path": "data/paper/handoff_repeat_transfer-02.zip",
+      "sha256": "ec1e6080eaeec0606c12a193919c339b3111504a7b8f12486ab8d2a9cec89b2b"
+    },
+    {
+      "path": "data/paper/handoff_repeat_transfer-03.zip",
+      "sha256": "a6961349462bb5945153ec4b70ae486ac2b5d7ca19969a7c9fcdd2afe8f13ae7"
+    },
+    {
+      "path": "data/paper/handoff_transfer-01.zip",
+      "sha256": "491908f8bbb1c8dc6c45db5ed7ad4ddd434773697e70c956b9a686f71448c311"
+    },
+    {
+      "path": "data/paper/handoff_transfer-02.zip",
+      "sha256": "29d647e4f9047d4fd0ad5d30c88f3803222f3f543b6591ae5e70e404715b6123"
+    },
+    {
+      "path": "data/paper/handoff_transfer-03.zip",
+      "sha256": "99f163a35f069184dba01f082051993a49a5418771bd2aa32a4cbab7da568185"
+    },
+    {
+      "path": "data/paper/irregular_schedules-01.zip",
+      "sha256": "39afa5b87b12ad98a3d4f9ca28d043281e6d752c3cea2eb4489fe39bacd19d66"
+    },
+    {
+      "path": "data/paper/lifecycle_transfer-01.zip",
+      "sha256": "237e6070b9c11cbf7fa2e2f5d158892e4bcd6ca1a425f2ea1e0b8140c0492893"
+    },
+    {
+      "path": "data/paper/own_writes_lifecycle-01.zip",
+      "sha256": "81ac852acbe5b231ad2e72af48704299e71ce72ccd80b58a63cd68ce3b30787b"
+    },
+    {
+      "path": "data/paper/p2_core-01.zip",
+      "sha256": "8d8d84b055e2bef655a8aaf48df60c04adae1806b74cdd4552c229feb6ad9a16"
+    },
+    {
+      "path": "data/paper/p2_early-01.zip",
+      "sha256": "08a542dc5e06e9fe95888503bcc159309c7f01d4812d54272df9db80bbf589e6"
+    },
+    {
+      "path": "data/paper/p2_full_gate-01.zip",
+      "sha256": "a9ea846c1969cef98d7fc69cdb65d3a968d8f8c6ac532dca67c5be8dc35a9656"
+    },
+    {
+      "path": "data/paper/p2_review-01.zip",
+      "sha256": "b4b5e25133283615c30b858de829914b22adc3f62df6b0c740545422062d31af"
+    },
+    {
+      "path": "data/paper/p2_routes-01.zip",
+      "sha256": "a18b863893d821aa36c31fd8b565e266432075a931a6fadc6bb9920d504da6e6"
+    },
+    {
+      "path": "data/paper/p2_semantics-01.zip",
+      "sha256": "e88b1293e0db7a5a722b1b7fd96fe77cbf7a2b2242f2e40e851c768fd82b3715"
+    },
+    {
+      "path": "data/paper/p3_initial-01.zip",
+      "sha256": "5b2b092290a39c53a82dd8489add1fa5ea93c08893bb13c95d8ac09e042d4372"
+    },
+    {
+      "path": "data/paper/p3_locked-01.zip",
+      "sha256": "599c7f294001cb05f682606726b3d9d61edbc268a846cc78fc7ae909ec9f97ce"
+    },
+    {
+      "path": "data/paper/p3_open-01.zip",
+      "sha256": "f505d29abfd59dc311df76cad52cdafc2fa5bcd54d1b3663b52a7d559df17261"
+    },
+    {
+      "path": "data/paper/p3_route_transfer-01.zip",
+      "sha256": "41a054dd7a23cecf54613a5feec9699ddb051ee24ac25335490e86c47743cea8"
+    },
+    {
+      "path": "data/paper/p4_layers-01.zip",
+      "sha256": "20c16ced3f3c2381584555a51d76ccfc39ff134711ec8bc7c0e351778135b372"
+    },
+    {
+      "path": "data/paper/reviewer_qwen-01.zip",
+      "sha256": "d09de26cf6322a6f7a8945e3d1195f4b19ece32a24a0e2d53357637ed52786c2"
+    },
+    {
+      "path": "data/paper/reviewer_t-01.zip",
+      "sha256": "2f20bde53738bd759330a9a18e84f9ff4322ad752696a9e8db9c6542a57876b9"
+    },
+    {
+      "path": "data/paper/reviewer_u-01.zip",
+      "sha256": "4fe2f0671c4ee6ab1142a5a6aae648a5cb1f53a20e694faa49c99017916b8f6b"
+    },
+    {
+      "path": "data/paper/semantic_three_policies-01.zip",
+      "sha256": "6c455caf040e7b6f8a50093e7c96754349fa34617deb927173c9965d380bfff7"
+    },
+    {
+      "path": "data/paper/static_semantic-01.zip",
+      "sha256": "2ab6e0ef8b5d7dc196753e1e3f9688f6950fa2bac6edf65722576ebe1c52cdd3"
+    },
+    {
+      "path": "data/paper/static_semantic_sol-01.zip",
+      "sha256": "b95d5c0df18226b91dd781083870bdf3a2a347af7839b111e53a3c3eed7f5216"
+    }
+  ],
+  "original_screenshots_included": false
+}

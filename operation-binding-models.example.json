@@ -1,0 +1,33 @@
+{
+  "workspace": ".",
+  "runtime_wp_site": "REPLACE_WITH_LOCAL_WORDPRESS_DIRECTORY",
+  "base_database": "REPLACE_WITH_SYNTHETIC_FIXTURE/state.sqlite",
+  "budget_usd": 5,
+  "hours": 6,
+  "workers": 2,
+  "max_turns": 12,
+  "models": [
+    {
+      "id": "REPLACE_WITH_EXACT_GPT_MODEL_ID",
+      "base_url": "https://REPLACE_WITH_PROVIDER/v1",
+      "key_env": "GPT_API_KEY",
+      "input_per_million": 0,
+      "output_per_million": 0,
+      "max_output_tokens": 1536,
+      "token_limit_field": "max_completion_tokens",
+      "byte_token_bound_verified": false,
+      "extra_body": {}
+    },
+    {
+      "id": "REPLACE_WITH_EXACT_CLAUDE_MODEL_ID",
+      "base_url": "https://REPLACE_WITH_PROVIDER/v1",
+      "key_env": "CLAUDE_API_KEY",
+      "input_per_million": 0,
+      "output_per_million": 0,
+      "max_output_tokens": 1536,
+      "token_limit_field": "max_tokens",
+      "byte_token_bound_verified": false,
+      "extra_body": {}
+    }
+  ]
+}

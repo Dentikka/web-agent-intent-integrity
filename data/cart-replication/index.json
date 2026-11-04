@@ -1,0 +1,54 @@
+{
+  "episodes": 588,
+  "cohorts": {
+    "cart_autosave": 48,
+    "cart_handoff": 192,
+    "cart_main": 240,
+    "cart_meaning": 96,
+    "cart_smoke": 12
+  },
+  "files": 8678,
+  "shards": [
+    {
+      "path": "data/cart-replication/cart_autosave-01.zip",
+      "sha256": "5ab65f5bd2d1e47292c039a7e52d50cc0a0119cb89b44e2eae9071f08ad876d2"
+    },
+    {
+      "path": "data/cart-replication/cart_handoff-01.zip",
+      "sha256": "2e0d6b548812c117702ce427eefb81cfb5ef2867b6d90a84d64a31d3ea1e138e"
+    },
+    {
+      "path": "data/cart-replication/cart_handoff-02.zip",
+      "sha256": "7cff4ce18a381027b111736533a0badd522397ba6943afeba5a0e7fcbbeae3c9"
+    },
+    {
+      "path": "data/cart-replication/cart_handoff-03.zip",
+      "sha256": "ffa6aad89a06b08b91c5e47fb242a6635814596ce34bfc0867d9639f00c85cc4"
+    },
+    {
+      "path": "data/cart-replication/cart_main-01.zip",
+      "sha256": "c5bec978c01a69be63c8bb7567417021cd713da482a89382a5a0b11fb5a58000"
+    },
+    {
+      "path": "data/cart-replication/cart_main-02.zip",
+      "sha256": "50cd7bfb416b12660e05e6be147ca72d850a332b2902f35e8f48dc8a6326eb44"
+    },
+    {
+      "path": "data/cart-replication/cart_main-03.zip",
+      "sha256": "657a9ddcf69b84635ac2c780b0a99f5853bf36cb170e169c3ea59576caf70f1c"
+    },
+    {
+      "path": "data/cart-replication/cart_meaning-01.zip",
+      "sha256": "19fa5f208c4826e12b5a5d377c8a98318a019bb16c6ac2bc4ba95096ad466827"
+    },
+    {
+      "path": "data/cart-replication/cart_meaning-02.zip",
+      "sha256": "b246bf5c01d9d309f182d4e556862299d3df689ba30b754a61b950a762d6f9c1"
+    },
+    {
+      "path": "data/cart-replication/cart_smoke-01.zip",
+      "sha256": "0122d0ec1d891364545e0ad05b8d176e48ca92962a324f15621d905f605d7a4a"
+    }
+  ],
+  "original_screenshots_included": false
+}

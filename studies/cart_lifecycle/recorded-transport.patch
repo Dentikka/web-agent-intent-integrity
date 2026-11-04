@@ -1,0 +1,27 @@
+--- original/bounded_api.py
++++ local/bounded_api.py
+@@ -103,7 +103,9 @@
+         raise ValueError('API key missing; specify key_env or local key_file')
+     call = ledger.reserve(episode, reserve)
+     write(folder / f'request-{step:02d}.json', body)  # No headers or keys.
+-    req = urllib.request.Request(url, data=blob, headers={'Content-Type': 'application/json', 'Authorization': 'Bearer ' + key})
++    headers = {'Content-Type': 'application/json', 'Authorization': model.get('auth_scheme', 'Bearer') + ' ' + key}
++    headers.update(model.get('extra_headers', {}))
++    req = urllib.request.Request(url, data=blob, headers=headers)
+     class NoRedirect(urllib.request.HTTPRedirectHandler):
+         def redirect_request(self, *args):
+             return None
+@@ -115,6 +117,13 @@
+         raise StopRun(f'API HTTP {exc.code}; reservation retained; no automatic retry') from None
+     except (OSError, ValueError) as exc:
+         raise StopRun(f'API transport/JSON failure ({type(exc).__name__}); reservation retained') from None
++    # Local transport adapter: redact the provider account alias before saving.
++    if model.get('response_wrapper') == 'eliza':
++        wrapper_cost = result.get('cost')
++        result = result.get('response', result)
++        result.pop('key', None)
++        if wrapper_cost is not None:
++            result.setdefault('usage', {})['cost'] = wrapper_cost
+     write(folder / f'response-{step:02d}.json', result)
+     ledger.settle(call, result.get('usage', {}), model)
+     return result

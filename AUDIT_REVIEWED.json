@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "counts": {
+    "text_values": 19882411,
+    "files": 105904,
+    "databases": 2124
+  },
+  "issues": [],
+  "broken_document_links": [],
+  "url_hosts": {
+    "provider.example": 4,
+    "replace_with_provider": 2,
+    "127.0.0.1": 58642,
+    "night-shop.example.test": 26938,
+    "rpc.pingomatic.com": 2124,
+    "github.com": 4,
+    "wordpress.org": 2,
+    "downloads.wordpress.org": 4,
+    "provider.invalid": 6,
+    "platform.claude.com": 2,
+    "developers.openai.com": 1,
+    "blocked.example.test": 2,
+    "openrouter.ai": 1,
+    "DYNAMIC": 5,
+    "{ip}": 1
+  },
+  "recorded_data_unchanged": true,
+  "tracked_files": 211,
+  "model_calls": 0,
+  "reviewed_findings": [
+    {
+      "path": "data/paper/p2_core-01.zip:artifacts/point2_v2/worker-18/77a757db73441862/response-02.json",
+      "kind": "identity",
+      "field": ".choices[0].message.reasoning_details[0].signature",
+      "value_sha256": "209b1ca375143c6f2594402677d3e52b522e45f7d7c4c039fa3d056e413aeb51",
+      "length": 1157,
+      "classification": "Random substring inside an opaque provider signature; not author metadata. Signature retained unchanged."
+    }
+  ]
+}

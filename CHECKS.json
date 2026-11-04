@@ -1,0 +1,68 @@
+{
+  "unit_tests": {
+    "root": 30,
+    "nested_cart_suite": 15,
+    "passed": true,
+    "nested_operation_binding_suite": 15
+  },
+  "native_scripted_controls": {
+    "cases": 54,
+    "groups": {
+      "autosave-controls": 8,
+      "drift-controls": 24,
+      "handoff-controls": 8,
+      "meaning-controls": 6,
+      "resync-controls": 8
+    },
+    "passed": true,
+    "model_calls": 0
+  },
+  "paper_corpus": {
+    "section": "paper",
+    "assignments": 7192,
+    "cohorts": 28,
+    "technical_errors": 51,
+    "files_checked": 97035,
+    "databases_checked": 0,
+    "supporting_files_checked": 30,
+    "passed": true,
+    "model_calls": 0
+  },
+  "cart_corpus": {
+    "section": "cart-replication",
+    "assignments": 588,
+    "cohorts": 5,
+    "technical_errors": 0,
+    "files_checked": 8678,
+    "databases_checked": 588,
+    "passed": true,
+    "model_calls": 0
+  },
+  "independent_cart_database_comparisons": {
+    "databases": 588,
+    "mismatches": 0
+  },
+  "anonymity": {
+    "content_scan": true,
+    "languages": "English",
+    "scope": "All tracked text, nested evidence members and SQL text values",
+    "files_checked": 105904,
+    "databases_checked": 2124,
+    "broken_document_links": 0,
+    "opaque_provider_signature_false_positive_reviewed": true,
+    "recorded_data_unchanged": true
+  },
+  "model_calls_during_packaging": 0,
+  "operation_binding_controls": {
+    "cases": 12,
+    "passed": true,
+    "model_calls": 0,
+    "baseline_unchanged": true
+  },
+  "operation_binding_research": {
+    "status": "Source and controls only; no completed research corpus in this snapshot",
+    "planned_research_per_model": 112,
+    "compatibility_per_model": 2,
+    "archived_research_episodes": 0
+  }
+}
