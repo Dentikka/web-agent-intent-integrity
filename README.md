@@ -54,7 +54,7 @@ The publication audit is in `AUDIT_REVIEWED.json`. The earlier raw `CHECKS.json`
 
 ## Additional operation-binding studies
 
-Follow [the complete execution guide](https://github.com/Dentikka/webmcp-intent-integrity-artifact/blob/main/docs/RUN_BINDING.md) and [fixed protocol](https://github.com/Dentikka/webmcp-intent-integrity-artifact/blob/main/studies/operation_binding/PROTOCOL.md). For each configured model, the default programme has 48 receipt episodes, 64 consent episodes and two compatibility episodes: **224 research + 4 compatibility = 228 episodes for two models**. The same portable WooCommerce runtime is reused. Native controls and planning require no model calls:
+Follow [the complete execution guide](https://github.com/Dentikka/web-agent-intent-integrity/blob/main/docs/RUN_BINDING.md) and [fixed protocol](https://github.com/Dentikka/web-agent-intent-integrity/blob/main/studies/operation_binding/PROTOCOL.md). For each configured model, the default programme has 48 receipt episodes, 64 consent episodes and two compatibility episodes: **224 research + 4 compatibility = 228 episodes for two models**. The same portable WooCommerce runtime is reused. Native controls and planning require no model calls:
 
 ```bash
 python studies/operation_binding/run.py plan --config operation-binding-models.example.json

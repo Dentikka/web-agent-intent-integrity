@@ -84,7 +84,7 @@ The supplied artifact does not distribute container images or claim that the ent
 
 ## 5. Additional receipt and consent studies
 
-The [operation-binding execution guide](https://github.com/Dentikka/webmcp-intent-integrity-artifact/blob/main/docs/RUN_BINDING.md) provides a complete separate path using the same WooCommerce runtime. It includes [a frozen protocol](https://github.com/Dentikka/webmcp-intent-integrity-artifact/blob/main/studies/operation_binding/PROTOCOL.md), [model-list example](https://github.com/Dentikka/webmcp-intent-integrity-artifact/blob/main/operation-binding-models.example.json), 12 native scripted controls, a bounded launcher and offline state/report auditing. The default workload is 112 research and two compatibility episodes per model. Completed research results for these additional studies are not part of the archived snapshot.
+The [operation-binding execution guide](https://github.com/Dentikka/web-agent-intent-integrity/blob/main/docs/RUN_BINDING.md) provides a complete separate path using the same WooCommerce runtime. It includes [a frozen protocol](https://github.com/Dentikka/web-agent-intent-integrity/blob/main/studies/operation_binding/PROTOCOL.md), [model-list example](https://github.com/Dentikka/web-agent-intent-integrity/blob/main/operation-binding-models.example.json), 12 native scripted controls, a bounded launcher and offline state/report auditing. The default workload is 112 research and two compatibility episodes per model. Completed research results for these additional studies are not part of the archived snapshot.
 
 ```bash
 python studies/operation_binding/run.py plan --config operation-binding-models.example.json

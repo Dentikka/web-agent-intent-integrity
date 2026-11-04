@@ -7,7 +7,7 @@ This is the complete execution guide for `studies/operation_binding/`. The UI, n
 ## Agent execution checklist
 
 1. Obtain this public repository using its **Download repository as ZIP** control and extract it into a new directory. Work from that directory. Preserve completed runs and any existing local edits.
-2. Read this guide and [the fixed protocol](https://github.com/Dentikka/webmcp-intent-integrity-artifact/blob/main/studies/operation_binding/PROTOCOL.md). Execute only the new receipt and consent programme; do not automatically repeat earlier root or cart matrices. Do not change prompts, conditions or scoring to obtain a desired outcome.
+2. Read this guide and [the fixed protocol](https://github.com/Dentikka/web-agent-intent-integrity/blob/main/studies/operation_binding/PROTOCOL.md). Execute only the new receipt and consent programme; do not automatically repeat earlier root or cart matrices. Do not change prompts, conditions or scoring to obtain a desired outcome.
 3. Use model and provider details already supplied by the operator. Otherwise ask once for exact served model IDs, an HTTPS Chat Completions base URL, a credential environment-variable name or local key-file path, the authorized total spending cap and wall-clock limit. Never request the key value in chat. Example caps do not authorize spending.
 4. Prepare the runtime and synthetic fixture below while missing provider details are resolved. Place outputs outside cloud-synchronized directories. Never use a completed episode database as the baseline.
 5. Configure the local example, verifying provider rates, billed reasoning/output caps and input-token bounds. Run `plan`, then native `selftest`. If API transport or billing caps cannot be verified, complete the offline preparation and report the blocker before paid requests. Native Anthropic Messages transport is not implemented; a compatible Chat Completions endpoint is required. OpenRouter is prohibited.
@@ -40,7 +40,7 @@ Replace `/LOCAL` with an ordinary local directory. Fixture creation requires a n
 
 ## Configure models and limits
 
-Copy [operation-binding-models.example.json](https://github.com/Dentikka/webmcp-intent-integrity-artifact/blob/main/operation-binding-models.example.json) to `binding-local.json`, which is ignored by Git. Paths in this JSON are relative to the configuration file unless absolute.
+Copy [operation-binding-models.example.json](https://github.com/Dentikka/web-agent-intent-integrity/blob/main/operation-binding-models.example.json) to `binding-local.json`, which is ignored by Git. Paths in this JSON are relative to the configuration file unless absolute.
 
 - `workspace`: this extracted repository's root. `runtime_wp_site`: `/LOCAL/binding-runtime/wordpress`. `base_database`: `/LOCAL/binding-fixture/state.sqlite`.
 - `php_binary`: PHP executable when absent from PATH. Linux normally uses installed Playwright Chromium with an empty `browser_channel`; Windows may select `"browser_channel": "msedge"`.

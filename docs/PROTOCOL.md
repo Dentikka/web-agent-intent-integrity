@@ -17,7 +17,7 @@ The native application writes create local orders, appointments or cart revision
 
 `data/paper/cohorts.json` records the expected and observed assignment counts and technical errors for every cohort. `trials.csv` enumerates all 7,192 selected assignments, including errors. Main, transfer and repeated-transfer cohorts are not combined into independent-site counts. Earlier pilots, calibrations and mechanical controls are not added to this registry.
 
-Study names in the registry describe successive fixed experimental programs, not interchangeable versions of a single benchmark. Exact task specifications, prompts, tool schemas and selecting model requests remain in the associated evidence shards. Source modules are under `studies/real_apps/`; [the reproduction guide](https://github.com/Dentikka/webmcp-intent-integrity-artifact/blob/main/docs/REPRODUCTION.md) distinguishes offline checking from recreating application installations.
+Study names in the registry describe successive fixed experimental programs, not interchangeable versions of a single benchmark. Exact task specifications, prompts, tool schemas and selecting model requests remain in the associated evidence shards. Source modules are under `studies/real_apps/`; [the reproduction guide](https://github.com/Dentikka/web-agent-intent-integrity/blob/main/docs/REPRODUCTION.md) distinguishes offline checking from recreating application installations.
 
 ## Separate cart replication
 
@@ -31,4 +31,4 @@ Technical failures remain visible and are separated from behavioral outcomes. No
 
 ## Additional operation-binding source package
 
-The [receipt/consent protocol](https://github.com/Dentikka/webmcp-intent-integrity-artifact/blob/main/studies/operation_binding/PROTOCOL.md) tests whether evidence and approval belong to this operation. Receipt crosses current/foreign first receipts with baseline/explicit comparison (48 episodes per model). Consent crosses requested same/cross route, current/foreign approval and ordinary/binding instruction (64 per model). No server gate forces safe reporting or authorized writes. All alternative checks remain available. The source and implementation controls are included; new model research outcomes are not added to the recorded registry.
+The [receipt/consent protocol](https://github.com/Dentikka/web-agent-intent-integrity/blob/main/studies/operation_binding/PROTOCOL.md) tests whether evidence and approval belong to this operation. Receipt crosses current/foreign first receipts with baseline/explicit comparison (48 episodes per model). Consent crosses requested same/cross route, current/foreign approval and ordinary/binding instruction (64 per model). No server gate forces safe reporting or authorized writes. All alternative checks remain available. The source and implementation controls are included; new model research outcomes are not added to the recorded registry.
